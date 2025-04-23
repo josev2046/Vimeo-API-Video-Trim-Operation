@@ -2,10 +2,6 @@
 
 This repository provides a brief overview of using the Vimeo API to trim videos.  Note that this operation creates a derivative version of the video and does not result in a completely new, independent video asset in your library.
 
-![image](https://github.com/user-attachments/assets/f900ed59-3e20-4af2-8128-23b29f4c3208)
-A Vimeo entry derivative version history.
-
-
 The following illustrates a trim operation on a Vimeo video:
 
 ![image](https://github.com/user-attachments/assets/6bb574fc-1d73-457d-a90b-760f7c720735)
@@ -44,3 +40,8 @@ Breakdown:
 `"trim_job_id": 2368497`: A unique ID for the trim job, which could potentially be used to check the status (though the method below is noted as deprecated).
 
 `"progress": 0`: The current progress of the trimming operation (0% in this case).
+
+Results:
+
+![image](https://github.com/user-attachments/assets/f900ed59-3e20-4af2-8128-23b29f4c3208)
+A Vimeo entry derivative version history.
