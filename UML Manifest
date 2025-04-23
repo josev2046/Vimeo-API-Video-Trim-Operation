@@ -1,0 +1,10 @@
+@startuml
+participant "HTTP Client" as HTTPClient
+participant "Vimeo API" as VimeoAPI
+
+HTTPClient -> VimeoAPI: POST /videos/{YOUR_VIDEO_ID}/trim
+note right of VimeoAPI: Includes Authorization and JSON payload \n{"trim_start": "10", "trim_end": "25"}
+activate VimeoAPI
+VimeoAPI -->> HTTPClient: JSON Response
+deactivate VimeoAPI
+@enduml
