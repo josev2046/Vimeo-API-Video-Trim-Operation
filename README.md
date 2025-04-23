@@ -1,5 +1,9 @@
 ##  Vimeo API - Initiate Video Trim Operation
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15268099.svg)](https://doi.org/10.5281/zenodo.15268099)
+
+
 This repository provides a brief overview of using the Vimeo API to trim videos.  Note that this operation creates a derivative version of the video and does not result in a completely new, independent video asset in your library.
 
 The following illustrates a trim operation on a Vimeo video:
