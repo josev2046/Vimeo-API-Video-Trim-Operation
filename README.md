@@ -10,6 +10,7 @@ The following illustrates a trim operation on a Vimeo video:
 
 ![image](https://github.com/user-attachments/assets/6bb574fc-1d73-457d-a90b-760f7c720735)
 
+Curl:
 
 ~~~```bash
 curl -X POST \
